@@ -1,7 +1,6 @@
 package GO.luckies
 
 import (
-        "fmt"
         "math/rand"
         "time"
 )
