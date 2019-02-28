@@ -5,7 +5,7 @@ import (
         "time"
 )
 
-func randInts(min int, max int, perms int) []int {
+func RandInts(min int, max int, perms int) []int {
         r := rand.New(rand.NewSource(time.Now().UnixNano()))
         p := r.Perm(max - min + 1)
         for _, v := range p {
