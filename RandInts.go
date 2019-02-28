@@ -1,4 +1,4 @@
-package GOluckies
+package goluckies
 
 import (
         "math/rand"
